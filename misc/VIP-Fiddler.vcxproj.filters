@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{5f636baf-574a-4d8d-9d5f-c536d142fb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4bc09feb-e7d0-4bbf-939e-d96bd5fc14c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{daf5fcdd-231a-4305-a681-d0da45c8ba4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\globals.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\config.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\funcs.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\tray.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vcpkg\installed\x64-windows-static\include\curl\curl.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vcpkg\installed\x64-windows-static\include\json\json.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vcpkg\installed\x64-windows-static\include\zlib.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\jsoncpp.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="libs\libcurl.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="libs\zlib.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
