@@ -2,7 +2,7 @@
 Roblox utility that lets you quickly join certain servers
 
 # Usage:
-1. Install the portable executable from `https://github.com/NevoQF/VIP-Fiddler/releases/`
+1. Install the portable executable from https://github.com/NevoQF/VIP-Fiddler/releases/
 2. Create a new folder and put it in there.
 3. Double-click it and run it.
 4. It will create a config.json file in the folder.
