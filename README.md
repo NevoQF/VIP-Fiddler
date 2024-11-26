@@ -9,7 +9,8 @@ Roblox utility that lets you quickly join certain servers
 5. Update the config file and save it.
 6. Double-click the executable again.
 
-Tutorial on how to get roblox security cookie: https://www.youtube.com/watch?v=tuXr8O9nxkQ [DO NOT SHARE IT WITH ANY PERSON]
+Tutorial on how to get roblox security cookie: https://www.youtube.com/watch?v=tuXr8O9nxkQ 
+[DO NOT SHARE IT WITH ANY PERSON]
 
 ## Join the discord!
 https://discord.gg/VmtqCWrabb
